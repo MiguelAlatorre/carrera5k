@@ -1,28 +1,28 @@
-== README
+# Carrera 5K: Race Management System
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A web application built for a coding competition hosted by Grupotres (2015). The brief was a website for a charity 5K race that benefits a children's home (casa hogar). Our team built a system that lets organizers create new races every year instead of a single static page.
 
-Things you may want to cover:
+**Demo video:** [https://www.youtube.com/watch?v=uaS-sO_nSvY]
 
-* Ruby version
+## What it does
 
-* System dependencies
+- Organizers add future races to the database, so the same system can run the event each year.
+- Each race route is drawn on a map by connecting markers placed with the Google Maps API.
+- Runners register for a race through the site.
+- A payment screen exists on the front end only. The payment processing was left out because it needed information from the client that we did not have.
 
-* Configuration
+## Built with
 
-* Database creation
+- Ruby on Rails
+- Google Maps API (the 2015 version)
+- HTML, CSS and JavaScript
 
-* Database initialization
+## Team
 
-* How to run the test suite
+- Miguel Alatorre: most of the backend, plus small front-end fixes
+- Lazaro (lazarocobix): backend
+- Erick (erickcarrillo8): front end
 
-* Services (job queues, cache servers, search engines, etc.)
+## Status
 
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+This is a 2015 project, kept as it was submitted. It needs the old Ruby and Rails versions it was written with, and the Google Maps code will need an API key and updates to run today.
